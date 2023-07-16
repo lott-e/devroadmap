@@ -1,0 +1,295 @@
+---
+title: Typescript
+description: 
+---
+
+import TabSection from "../../components/TabSection";
+
+
+
+# **Basics**
+
+
+
+
+Typescript here
+
+<TabSection  
+
+questionsContent={[
+    {
+      id: 1,
+      frontHTML: <div>What is TypeScript?</div>,
+      backHTML: <>TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.</>,
+    },
+    {
+      id: 2,
+      frontHTML: <div>What are the advantages of using TypeScript?</div>,
+      backHTML: (
+        <>
+          TypeScript offers benefits such as static type checking, enhanced tooling and autocompletion,
+          improved code maintainability, and increased productivity in large-scale applications.
+        </>
+      ),
+    },
+    {
+      id: 3,
+      frontHTML: <div>What is a type declaration file in TypeScript?</div>,
+      backHTML: (
+        <>
+          A type declaration file in TypeScript (with the .d.ts extension) provides type information
+          for existing JavaScript libraries or modules that don't include native TypeScript support.
+        </>
+      ),
+    },
+    {
+      id: 4,
+      frontHTML: <div>What is the difference between "any" and "unknown" in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "any" type in TypeScript allows any value to be assigned to it and disables type checking,
+          while the "unknown" type requires a type assertion or narrowing before performing operations on it.
+        </>
+      ),
+    },
+    {
+      id: 5,
+      frontHTML: <div>What are generics in TypeScript?</div>,
+      backHTML: (
+        <>
+          Generics in TypeScript allow the creation of reusable components or functions that can work with
+          multiple types, providing type safety and flexibility.
+        </>
+      ),
+    },
+    {
+      id: 6,
+      frontHTML: <div>What is the "keyof" operator in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "keyof" operator in TypeScript is a type operator that allows accessing the keys of a given type
+          as a union of string literals.
+        </>
+      ),
+    },
+    {
+      id: 7,
+      frontHTML: <div>What is a tuple in TypeScript?</div>,
+      backHTML: (
+        <>
+          A tuple in TypeScript is an array-like structure that allows storing a fixed number of elements of
+          different types. The type of each element in the tuple is known and preserved.
+        </>
+      ),
+    },
+    {
+      id: 8,
+      frontHTML: <div>What are decorators in TypeScript?</div>,
+      backHTML: (
+        <>
+          Decorators are a TypeScript feature that allows adding metadata and modifying the behavior of classes,
+          methods, or properties at design time.
+        </>
+      ),
+    },
+    {
+      id: 9,
+      frontHTML: <div>What is the "readonly" modifier in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "readonly" modifier in TypeScript is used to make properties or array elements read-only,
+          preventing them from being modified after initialization.
+        </>
+      ),
+    },
+    {
+      id: 10,
+      frontHTML: <div>What is an interface in TypeScript?</div>,
+      backHTML: (
+        <>
+          An interface in TypeScript is a way to define the shape of an object, specifying the properties it
+          should have and the types of those properties.
+        </>
+      ),
+    },
+    {
+      id: 11,
+      frontHTML: <div>What is a namespace in TypeScript?</div>,
+      backHTML: (
+        <>
+          A namespace in TypeScript provides a way to organize code into logical containers, preventing name
+          clashes between different parts of the codebase.
+        </>
+      ),
+    },
+    {
+      id: 12,
+      frontHTML: <div>What is the "as" keyword used for in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "as" keyword in TypeScript is used for type assertions, explicitly telling the compiler the
+          intended type of a value when its type cannot be determined automatically.
+        </>
+      ),
+    },
+    {
+      id: 13,
+      frontHTML: <div>What are access modifiers in TypeScript?</div>,
+      backHTML: (
+        <>
+          Access modifiers (such as public, private, and protected) in TypeScript control the visibility and
+          accessibility of class members, providing encapsulation and data hiding.
+        </>
+      ),
+    },
+    {
+      id: 14,
+      frontHTML: <div>What is the "Partial" utility type in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "Partial" utility type in TypeScript creates a new type with all properties of the original type
+          set as optional, allowing incremental construction of objects.
+        </>
+      ),
+    },
+    {
+      id: 15,
+      frontHTML: <div>What is a type assertion in TypeScript?</div>,
+      backHTML: (
+        <>
+          A type assertion in TypeScript is a way to explicitly inform the compiler about the type of a value,
+          overriding its default inference.
+        </>
+      ),
+    },
+    {
+      id: 16,
+      frontHTML: <div>What is the "Pick" utility type in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "Pick" utility type in TypeScript creates a new type by picking specific properties from an
+          existing type, omitting the rest.
+        </>
+      ),
+    },
+    {
+      id: 17,
+      frontHTML: <div>What is the "Omit" utility type in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "Omit" utility type in TypeScript creates a new type by omitting specified properties from an
+          existing type, including the rest.
+        </>
+      ),
+    },
+    {
+      id: 18,
+      frontHTML: <div>What is the "keyof" and "typeof" combination used for in TypeScript?</div>,
+      backHTML: (
+        <>
+          The combination of "keyof" and "typeof" in TypeScript allows creating type-safe mappings between the
+          keys of an object and its corresponding values.
+        </>
+      ),
+    },
+    {
+      id: 19,
+      frontHTML: <div>What are conditional types in TypeScript?</div>,
+      backHTML: (
+        <>
+          Conditional types in TypeScript provide the ability to define types based on conditional logic,
+          allowing for more advanced and flexible type definitions.
+        </>
+      ),
+    },
+    {
+      id: 20,
+      frontHTML: <div>What is a discriminated union in TypeScript?</div>,
+      backHTML: (
+        <>
+          A discriminated union in TypeScript is a union type with a common, discriminative property that allows
+          narrowing down the possible types within the union based on that property's value.
+        </>
+      ),
+    },
+    {
+      id: 21,
+      frontHTML: <div>What is a type guard in TypeScript?</div>,
+      backHTML: (
+        <>
+          A type guard in TypeScript is a runtime check that allows narrowing down the type of a value within a
+          conditional block, based on the result of the check.
+        </>
+      ),
+    },
+    {
+      id: 22,
+      frontHTML: <div>What is a mapped type in TypeScript?</div>,
+      backHTML: (
+        <>
+          A mapped type in TypeScript allows transforming properties of an existing type into a new type by
+          applying a transformation function or a set of predefined transformations.
+        </>
+      ),
+    },
+    {
+      id: 23,
+      frontHTML: <div>What is the "this" type in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "this" type in TypeScript is a special type that represents the type of the current object or
+          instance within a method or function.
+        </>
+      ),
+    },
+    {
+      id: 24,
+      frontHTML: <div>What is the "unknown" type in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "unknown" type in TypeScript represents a value whose type is not yet known or may come from
+          dynamic sources, requiring type assertions or narrowing before performing operations on it.
+        </>
+      ),
+    },
+    {
+      id: 25,
+      frontHTML: <div>What is the "never" type in TypeScript?</div>,
+      backHTML: (
+        <>
+          The "never" type in TypeScript represents a type that indicates no possible value or a function that
+          never returns or throws an error.
+        </>
+      ),
+    },
+  ]}
+
+
+
+
+booksContent={` 
+
+- [NO BS TS | Jack Herrington](https://no-bs-ts.myshopify.com/)
+
+`} 
+
+coursesContent={`
+-   [TypeScript Tutorial for Beginners | Programming with Mosh](https://www.youtube.com/watch?v=d56mG7DezGs&t=2s)
+
+-   [Learn TypeScript – Full Tutorial | freecodecamp](https://www.youtube.com/watch?v=30LWjhZzg50)
+
+
+`}
+
+resourcesContent={` 
+
+-   [Typescript Documentation](https://www.typescriptlang.org/docs/)
+
+
+`}/>
+
+
+
+
+
+  

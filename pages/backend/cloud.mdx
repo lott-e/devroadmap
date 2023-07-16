@@ -1,0 +1,126 @@
+---
+title: Cloud
+description: 
+---
+
+import TabSection from "../../components/TabSection";
+
+
+
+*pay monthly fee, get access to a data center's servers*
+
+You wouldn't call someone 'car-less' if they didn't own a car and instead regularly used uber, Serverless is exactly the same. You don't own a server but you can pay someone who does own one to execute your code when you need it.
+
+### Multi-Tier Architecture
+
+-   **Presentation **- The visual layout of the data (GUI)
+
+-   **Application **- The processing/business logic, how we're mainpulating the data
+
+-   **Data **- getting and storing the data
+
+Multi-tier is a very common approach traditionally used in the past moreso **servers would've been needed for each layer**
+
+### **Backend as a Service (BaaS)**
+
+A cloud service model. Server-side **logic **and **state **are hosted by a cloud provider, a series of APIs in the cloud
+
+### **Function as a Service (FaaS)**
+
+-   **Event Triggered Code **- Run on containers
+
+-   **Dynamic **- If traffic spike, more instances of your app will be spun up
+
+-   **Ephemeral **- lasting only a short time. Once their work is complete the containers are gone
+
+Serverless Architecture
+-----------------------
+
+A runtime architecture where you've written small pieces of code that is executed through a cloud provider.
+
+-   APPLICATION
+
+-   FaaS
+
+-   BaaS
+
+-   Cloud Provider
+
+-   Physical Infrastructure
+
+
+<TabSection  
+
+questionsContent={[
+  {
+    id: 1,
+    frontHTML: <div>What is BASH?</div>,
+    backHTML: (
+      <>
+        BASH (Bourne Again SHell) is a popular command-line shell and scripting language used in Unix-like operating systems.
+      </>
+    ),
+  },
+  {
+    id: 2,
+    frontHTML: <div>What is the purpose of BASH?</div>,
+    backHTML: (
+      <>
+        BASH is used for interacting with the operating system through the command-line interface, executing commands, automating tasks, and writing shell scripts.
+      </>
+    ),
+  },
+  {
+    id: 3,
+    frontHTML: <div>How do you declare a variable in BASH?</div>,
+    backHTML: (
+      <>
+        Variables in BASH are declared by assigning a value to a variable name. For example, to declare a variable called "name" with the value "John", you would use the syntax: <code>name="John"</code>.
+      </>
+    ),
+  },
+  {
+    id: 4,
+    frontHTML: <div>What is a BASH script?</div>,
+    backHTML: (
+      <>
+        A BASH script is a file containing a series of commands written in the BASH scripting language. It can be executed as a program, allowing the automation of tasks and the execution of multiple commands in sequence.
+      </>
+    ),
+  },
+  {
+    id: 5,
+    frontHTML: <div>How do you comment in a BASH script?</div>,
+    backHTML: (
+      <>
+        In BASH, you can add comments to your script using the "#" symbol. Anything after the "#" symbol on a line is treated as a comment and is ignored by the interpreter.
+      </>
+    ),
+  },
+  // Add more questions here...
+]}
+
+
+booksContent={` 
+
+- [NO BS TS | Jack Herrington](https://no-bs-ts.myshopify.com/)
+
+`} 
+
+coursesContent={`
+-   [BASH for beginners | Microsoft Developer](https://www.youtube.com/playlist?list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l)
+
+`}
+
+resourcesContent={` 
+
+-   [Typescript Documentation](https://www.typescriptlang.org/docs/)
+
+
+`}/>
+
+
+
+
+
+  

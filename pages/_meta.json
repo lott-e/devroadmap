@@ -1,15 +1,59 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden"
+
+  },
+
+ 
+    "roadmap": {
+      "title": "Resource Roadmaps",
+      "type": "menu",
+  
+      "items": {
+      
+        "frontend": {
+          "title": "Frontend",
+          "type": "page",
+
+          "href": "/frontend"
+        },
+
+        "backend": {
+          "title": "Backend",
+          "type": "page",
+
+          "href": "/backend"
+        },
+        "ui-ux": {
+          "title": "UI / UX",
+          "type": "page",
+          "href": "/ui-ux"
+        }
+      
+      }
+    },
+  
+
+  "frontend": {
+    "title": "Frontend Roadmap",
+    "type": "page",
+    "display": "hidden"
+  },
+  "ui-ux": {
+    "title": "UI / UX",
+    "type": "page",
+    "display": "hidden"
+  },
+
+  "backend": {
+    "display": "hidden",
+    "title": "Backend",
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   }
 }
