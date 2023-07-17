@@ -12,6 +12,13 @@
       "type": "menu",
   
       "items": {
+
+        "computer-science": {
+          "title": "Computer Science",
+          "type": "page",
+
+          "href": "/computer-science"
+        },
       
         "frontend": {
           "title": "Frontend",
@@ -30,6 +37,11 @@
           "title": "UI / UX",
           "type": "page",
           "href": "/ui-ux"
+        },
+        "tools": {
+          "title": "Tools",
+          "type": "page",
+          "href": "/tools"
         }
       
       }
@@ -45,6 +57,17 @@
     "title": "UI / UX",
     "type": "page",
     "display": "hidden"
+  },
+  "tools": {
+    "display": "hidden",
+    "title": "Tools to Try",
+    "type": "page"
+  },
+
+  "computer-science": {
+    "display": "hidden",
+    "title": "Computer Science",
+    "type": "page"
   },
 
   "backend": {
